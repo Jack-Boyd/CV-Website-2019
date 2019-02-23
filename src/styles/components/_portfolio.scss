@@ -1,0 +1,26 @@
+.portfolio {
+  background: $grey;
+  color: $light-grey;
+  padding: 40px 0px;
+  text-align:center;
+}
+p {
+  margin: 0;
+}
+h2 {
+  margin-bottom: 20px;
+}
+.slide-content {
+  h3 {
+    text-align:center;
+  }
+  img{
+    margin: 20px auto;
+  }
+  p {
+    width: 390px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+  }
+}

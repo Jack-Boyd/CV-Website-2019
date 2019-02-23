@@ -1,0 +1,41 @@
+{
+
+  "websites": [
+    {
+      "image": "/images/tdn.png",
+      "name": "The Dealership Network",
+      "url": "https://www.thedealershipnetwork.co.nz",
+      "text": ""
+    },
+    {
+      "image": "/images/whai-logo.png",
+      "name": "Whai",
+      "url": "https://www.whai.co.nz/",
+      "text": ""
+    },
+    {
+      "image": "/images/brand-logo.png",
+      "name": "Mastip",
+      "url": "https://www.mastip.com/products/new-products/nexus-systems/",
+      "text": ""
+    },
+    {
+      "image": "/images/hitsend.png",
+      "name": "HitSend",
+      "url": "https://www.hitsend.co.nz",
+      "text": ""
+    },
+    {
+      "image": "/images/uath.png",
+      "name": "Urban Athlete",
+      "url": "https://www.urbanathlete.co.nz",
+      "text": ""
+    },
+    {
+      "image": "/images/farmmatters.png",
+      "name": "Farm Matters",
+      "url": "http://www.farmmatters.co.nz",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+.banner-screen {
+  background: no-repeat center right fixed url('/images/background.jpg');
+  background-size: cover;
+  height: 100vh;
+
+}
+
+.banner-screen .overlay {
+  background-color: $purple;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.4;
+  filter: alpha(opacity=50);
+  z-index: 2;
+  height: 100vh;
+}
+
+.banner-screen .container {
+  position: relative;
+  z-index: 4;
+  text-align: center;
+  top: 35%;
+}
+
+.container {
+  color: $light-grey;
+  font-size: $xl-size;
+}

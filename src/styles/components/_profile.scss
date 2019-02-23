@@ -1,0 +1,67 @@
+.container-2 {
+  background-color: $dark-grey;
+}
+.container-1 {
+  background-color: $grey;
+}
+.profile {
+  width: 1270px;
+  margin: 0 auto;
+  padding-top: 45px;
+  color: $light-grey;
+  height: 300px;
+
+}
+
+.personal-blurb {
+  width: 54%;
+  padding-right: 5%;
+  float:left;
+}
+.contact-details {
+  width: 40%;
+  float:left;
+  border-left: 1px solid $light-grey;
+
+}
+.experience {
+  width: 1270px;
+  height: 600px;
+  margin: 0 auto;
+  color: $light-grey;
+  padding: 45px 0px;
+}
+.p-sub-title {
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+li > span {
+  width: 60px;
+}
+
+.title {
+  width: 30%;
+  float:left;
+  display: block;
+}
+.right-list {
+  width: 60%;
+  float:left;
+  li {
+    margin-bottom: 20px;
+  }
+  h4 {
+    text-transform: uppercase;
+    font-size: $m-size;
+    margin: 0px 0px 10px 0px;
+  }
+  p {
+    margin: 0;
+  }
+  p > span {
+    font-style: italic;
+  }
+}

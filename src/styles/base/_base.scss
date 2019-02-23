@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: $m-size;
+}
+html, body {font-family: 'Montserrat', Arial, sans-serif !important; height: 100%; margin: 0 }
+button {
+  cursor: pointer;
+}
+
+button:disabled{
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+  color: $purple;
+}
+h1, h2, h3, h4, h5, h6, {
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: $purple;
+}
+.button {
+  border-radius: 15px;
+  background-color:darken($purple, 30);
+  border: none;
+  color: $purple;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: relative;
+  top: 20px;
+  margin: 50px 20px;
+  border-bottom: 2px solid darken($purple, 50);
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -5px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.slick-next:before, .slick-prev:before {
+  color: #000;
+}
+.slick-next {
+  right: 0;
+}
+.slick-prev {
+  left: 0;
+  z-index: 44;
+}

@@ -10,7 +10,6 @@ class Skills extends React.Component {
       centerMode: true,
       infinite: true,
       centerPadding: "0px",
-      autoplay: true,
       speed: 2000,
       autoplaySpeed: 2500,
       slidesToShow: 5,
@@ -19,7 +18,7 @@ class Skills extends React.Component {
     return (
       <div>
         <div className="skills">
-        <h2 className="heading">Skills</h2>
+        <h2 className="heading">Skills --Used Professionally--</h2>
           <Slider {...settings}>
             {this.props.skills.filter((skill) => {
               return skill.type === "taught"
@@ -31,7 +30,7 @@ class Skills extends React.Component {
           </Slider>
         </div>
         <div className="skills2">
-          <h2 className="heading">Skills</h2>
+          <h2 className="heading">Skills --Self Taught--</h2>
           <Slider {...settings}>
 
             {this.props.skills.filter((skill) => {

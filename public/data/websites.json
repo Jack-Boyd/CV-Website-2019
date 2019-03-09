@@ -5,37 +5,37 @@
       "image": "/images/tdn.png",
       "name": "The Dealership Network",
       "url": "https://www.thedealershipnetwork.co.nz",
-      "text": ""
+      "text": "The Dealership Network is a new website for listing and advertising vehicles for dealerships across New Zealand. It uses a vast range of search parameters to allow users to find the exact car they want. With various complicated API calls, and search logic to accommodate the amount of customisation available, this is the largest project I have worked on.\n I started working on The Dealership Network after the initial skeleton of the search was made, and the majority of the front end styles were done. My work has mostly consisted of buildilng and testing the search logic, making the backend admin portal for dealerships to see thier statistics, continually refactoring the code, and fixing any bugs that come up / adding new features at the owners request."
     },
     {
       "image": "/images/whai-logo.png",
       "name": "Whai",
       "url": "https://www.whai.co.nz/",
-      "text": ""
+      "text": "Whai is an eCommerce site specifically tailored for New Zealand vendors. This site has both a complete front end eCommerce build, and a complete backend portal for vendors to log into and update thier store details, add / remove products, process orders made through Whai, and view analytics of how the products are doing.\n There is also an option for vendors who sign up to use the 'Sell through Whai' version of the site, where the vendor can use Whai as a place to list products that link to thier own personal website to complete the order.\n. I built both parts of Whai as a custom build .NET eCommerce site integrated in Umbraco, and contains lots of SQL, C# and also an API call to shopify and magento to bring an already existing stores products over to Whai."
     },
     {
       "image": "/images/brand-logo.png",
       "name": "Mastip",
       "url": "https://www.mastip.com/products/new-products/nexus-systems/",
-      "text": ""
+      "text": "As said in thier own words, Mastip is a leading designer and manufacturer of innovative hot runner solutions to the plastics industry worldwide. It is a standard umbraco profile site that the company I work for took on from another web development company. \n My work on the site is on the new profile page. This includes a 360 degree photo area, a photo slider that can include an embeded youtube link, and a form download area where the user needs to fill in a form in order to gain access to the downloads."
     },
     {
       "image": "/images/hitsend.png",
       "name": "HitSend",
       "url": "https://www.hitsend.co.nz",
-      "text": ""
+      "text": "HitSend is an email marketing agency that provides personalised, customised email marketing and newsletter solutions for small and medium businesses. Its a standard template based profile site, where users interested send through a contact request to the business owners. \nThis was my first ever venture into web development, as all programming done before this was software done at university, so using this site, I learned how to write with HTML and CSS, as well as working my way round .NET and Umbraco."
     },
     {
       "image": "/images/uath.png",
       "name": "Urban Athlete",
       "url": "https://www.urbanathlete.co.nz",
-      "text": ""
+      "text": "Urban Athlete is a Physiotherapy Online Appointment Booker for clients to easily book appointments with the right person. \nThis is a small profile site that we took on from another web development company, and did some general updates to it, including installing an SSL certificate, some front end design changes, and working google maps (which previous developer had neglected)."
     },
     {
       "image": "/images/farmmatters.png",
       "name": "Farm Matters",
       "url": "http://www.farmmatters.co.nz",
-      "text": ""
+      "text": "Farm Matters is a soil testing and liquid fertiliser business that prides itself for being based in New Zealand, for New Zealanders. \n This is a profile site that I made based on a template, with the majority of the work going into the custom styling on the bottom of the website. This company went through multiple rebrandings, which caused us to make 3 different styled versions of the site, with the current live site being the chosen design."
     }
   ]
 }

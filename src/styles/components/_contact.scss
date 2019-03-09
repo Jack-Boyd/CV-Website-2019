@@ -32,8 +32,7 @@ label {
 
 }
 .contact {
-  background: no-repeat center right fixed url('/images/justice-by-dorpz-3840×2160.jpg');
-  background-size: cover;
+  background-color: $dark-grey;
   color: $light-grey;
 }
 textarea.form-control {
@@ -42,19 +41,9 @@ textarea.form-control {
 }
 .btn {
   display: inline-block;
-  font-weight: 400;
-  color: #212529;
-  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif;
   vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  border: 1px solid transparent;
-  padding: .5rem 1rem;
-  font-size: 1.5rem;
   line-height: 1.5;
-  border-radius: .25rem;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin: 0;
+  font-size: 1.6rem;
 }

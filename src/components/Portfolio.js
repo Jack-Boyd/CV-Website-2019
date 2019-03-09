@@ -10,10 +10,9 @@ class Portfolio extends React.Component {
       centerMode: true,
       infinite: true,
       centerPadding: "0px",
-      autoplay: true,
       speed: 2000,
       autoplaySpeed: 2500,
-      slidesToShow: 5,
+      slidesToShow: 4,
       speed: 200
     }
     return (

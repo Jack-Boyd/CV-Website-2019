@@ -13,7 +13,8 @@ class Profile extends React.Component {
               <p>I am a full-stack developer based in Auckland, New Zealand, with a passion for learning, and a drive for producing quality. <br/>
               I am an enthusiastic person with a passion for all things music and software, and I am consistently striving to learn new things in order to apply to my professional and personal work.
               I am very comfortable in social situations, which i take advantage of in my work talking to customers and making sure they are satisfied.
-              I love watching TV, writing and listening to music, learning new skills to add to my toolbelt, and making and reaching my goals.
+              I love watching TV, writing and listening to music, learning new skills to add to my toolbelt, and making and reaching my goals.<br/>
+              I've played piano for almost 15 years, and guitar for 7. I am formerly a club football player, and representative badminton player. I am also a DJ around various nightclubs in Auckland's CBD, and have done this as a hobbie for the past year to earn some extra income.
               </p>
             </div>
             <div className="contact-details">

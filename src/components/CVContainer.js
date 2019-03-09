@@ -4,6 +4,8 @@ import Banner from './Banner';
 import Profile from './Profile';
 import Portfolio from './Portfolio';
 import Skills from './Skills';
+import Contact from './Contact';
+
 
 const CVContainer = () => (
   <div>
@@ -11,6 +13,7 @@ const CVContainer = () => (
     <Profile/>
     <Portfolio/>
     <Skills/>
+    <Contact/>
   </div>
 );
 

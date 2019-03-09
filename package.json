@@ -1,7 +1,7 @@
 {
-  "name": "indecision-application",
+  "name": "jack-boyd-cv",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "author": "Jack Boyd",
   "license": "MIT",
   "scripts": {
@@ -13,6 +13,7 @@
     "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
     "babel-loader": "7.1.1",
@@ -24,10 +25,8 @@
     "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",
     "firebase": "4.2.0",
-    "moment": "2.18.1",
     "node-sass": "4.5.3",
     "normalize.css": "7.0.0",
-    "numeral": "2.0.6",
     "raf": "3.3.2",
     "react": "16.0.0",
     "react-addons-shallow-compare": "15.6.0",
@@ -39,6 +38,7 @@
     "react-router-dom": "4.2.2",
     "react-slick": "^0.23.2",
     "react-spring": "^7.2.10",
+    "reactstrap": "^7.1.0",
     "redux": "3.7.2",
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",

@@ -1,0 +1,60 @@
+form {
+  display: block;
+  margin-top: 0em;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.contact-form {
+  position: relative;
+  padding: 3em 1em 4em;
+  margin: 0 auto;
+  width: 800px;
+
+}
+.contact {
+  background: no-repeat center right fixed url('/images/justice-by-dorpz-3840×2160.jpg');
+  background-size: cover;
+  color: $light-grey;
+}
+textarea.form-control {
+  height: auto;
+  font-size: 1.5rem;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .5rem 1rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

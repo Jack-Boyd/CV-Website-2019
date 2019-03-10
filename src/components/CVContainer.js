@@ -14,6 +14,9 @@ const CVContainer = () => (
     <Portfolio/>
     <Skills/>
     <Contact/>
+    <footer>
+      <p className="footertext">Made by Jack Boyd 2019</p>
+    </footer>
   </div>
 );
 

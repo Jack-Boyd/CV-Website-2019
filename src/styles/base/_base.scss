@@ -75,9 +75,20 @@ a{
   color: #000;
 }
 .slick-next {
-  right: 0;
+  right: 10px;
 }
 .slick-prev {
   left: 0;
   z-index: 44;
+}
+.slick-next:before, .slick-prev:before {
+  font-size: 30px;
+}
+
+footer {
+  background: #000;
+}
+.footertext {
+  padding: 15px 0px 15px 50px;
+  color: $light-grey;
 }

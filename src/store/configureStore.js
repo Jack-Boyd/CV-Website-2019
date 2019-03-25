@@ -5,7 +5,7 @@ import thunk from 'redux-thunk';
 import {startAddSkill} from '../actions/skills';
 import {startAddWebsite} from '../actions/websites';
 
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+// const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 export default () => {
   const store = createStore(
@@ -13,7 +13,7 @@ export default () => {
       websites: websiteReducer,
       skills: skillReducer
     }),
-    composeEnhancers(applyMiddleware(thunk))
+    applyMiddleware(thunk)
     // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
   );
 

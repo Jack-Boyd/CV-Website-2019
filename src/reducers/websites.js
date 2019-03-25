@@ -7,6 +7,8 @@ export default (state = websitesReducerDefaultState, action) => {
       ...state,
       action.website
     ];
+    case 'SET_WEBSITES':
+    return action.websites;
     default:
       return state;
   }

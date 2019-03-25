@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import AppRouter from './routers/AppRouter';
+import CVPreLoader from './components/CVPreLoader';
 import {Provider} from 'react-redux';
+import {startSetSkills} from './actions/skills'
+import {startSetWebsites} from './actions/websites'
 import configureStore from './store/configureStore';
 import registerServiceWorker from './registerServiceWorker';
+import './firebase/firebase';
 import './styles/styles.scss'
 
 //VERSION 1.0
@@ -20,7 +24,12 @@ const jsx = (
     <AppRouter/>
   </Provider>
 );
-ReactDOM.render(jsx, document.getElementById('app'));
+
+ReactDOM.render(<CVPreLoader/>, document.getElementById('app'));
+store.dispatch(startSetSkills());
+store.dispatch(startSetWebsites()).then(() => {
+  ReactDOM.render(jsx, document.getElementById('app'));
+});
 
 registerServiceWorker();
 

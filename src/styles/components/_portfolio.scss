@@ -18,9 +18,38 @@ h2 {
     margin: 20px auto;
   }
   p {
-    width: 480px;
+    width: 420px;
     margin: 0 auto;
     position: relative;
     text-align: center;
   }
 }
+
+// @media (min-width: 576px) {
+//   .slide-content p {
+//       max-width: 540px;
+//     }
+//   }
+
+//   @media (min-width: 768px) {
+//     .slide-content p{
+//         max-width: 720px;
+//     }
+//   }
+@media (max-width: 1700px) {
+  .slide-content p {
+    width: 360px;
+  }
+  .slide-content img {
+    height: 65px;
+  }
+}
+
+  @media (max-width: 1024px) {
+    .slide-content p{
+        width: 300px;
+      }
+    .slide-content img {
+      height: 50px;
+    }
+    }

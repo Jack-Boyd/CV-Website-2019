@@ -5,8 +5,10 @@ export default (state = skillsReducerDefaultState, action) => {
     case 'ADD_SKILL':
     return [
       ...state,
-      action.skill
+      action.skills
     ];
+    case 'SET_SKILLS':
+    return action.skills;
     default:
       return state;
   }

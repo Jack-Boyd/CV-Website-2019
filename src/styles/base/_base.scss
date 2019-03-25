@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-html {
-  font-size: 62.5%;
-}
-body {
-  font-size: $m-size;
-}
+
 html, body {font-family: 'Montserrat', Arial, sans-serif !important; height: 100%; margin: 0 }
 button {
   cursor: pointer;
@@ -91,4 +86,15 @@ footer {
 .footertext {
   padding: 15px 0px 15px 50px;
   color: $light-grey;
+}
+
+.loading {
+  background-color: $grey;
+  padding: 80px;
+}
+.loading-text {
+  margin: 0 auto;
+  text-align: center;
+  color: $light-grey;
+  font-size: $m-size;
 }

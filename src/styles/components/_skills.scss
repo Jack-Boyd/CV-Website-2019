@@ -16,7 +16,7 @@ p {
 .slide-content p.fivetext {
   width: 390px;
   font-size: 15px;
-  height: 140px;
+  height: 180px;
 }
 h2 {
   margin-bottom: 20px;
@@ -44,3 +44,22 @@ h2 {
   background-color: $purple;
   transition: width .6s ease;
 }
+@media (max-width: 1700px) {
+  .slide-content p.fivetext {
+    width: 360px;
+    height: 220px;
+  }
+  // .slide-content img {
+  //   height: 65px;
+  // }
+}
+
+  @media (max-width: 1024px) {
+    .slide-content p.fivetext{
+        width: 300px;
+        height: 250px;
+      }
+    // .slide-content img {
+    //   height: 50px;
+    // }
+    }

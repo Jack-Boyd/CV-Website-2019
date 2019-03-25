@@ -1,8 +1,5 @@
 import React from 'react';
 import {Form, FormGroup, Input, Label, Button} from 'reactstrap';
-import axios from 'axios';
-
-const API_PATH = 'http://localhost:8080/api/contact/index.php';
 
 class Contact extends React.Component {
   constructor() {
@@ -20,17 +17,6 @@ class Contact extends React.Component {
   }
   handleSubmit = (e) => {
     e.preventDefault();
-    axios({
-      method: 'post',
-      url: `${API_PATH}`,
-      headers: {'content-type': 'application/json'},
-      data: this.state
-    }).then((result) => {
-      this.setState({
-        mailSent: result.data.sent
-      });
-      console.log(this.state);
-    }).catch((error) => this.setState({error: error.message}));
   }
   render() {
     return (

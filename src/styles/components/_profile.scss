@@ -1,32 +1,66 @@
-.container-2 {
+.about-me{
+  background-color: $grey;
+}
+.about-experience {
   background-color: $dark-grey;
 }
 .container-1 {
-  background-color: $grey;
-}
-.profile {
-  width: 1270px;
   margin: 0 auto;
-  padding-top: 45px;
-  color: $light-grey;
-  height: 345px;
-
+  padding: 0px;
+}
+.container-2 {
+  margin: 0 auto;
+  padding: 0px;
 }
 
+.profile {
+  color: $light-grey;
+  padding-top: 45px;
+  overflow:hidden;
+  margin: 0 auto;
+}
+
+.profile div {
+   min-height: 75px;
+   padding: 10px 20px 10px;
+}
+.profile h2 {
+  padding-left: 15px;
+}
 .personal-blurb {
-  width: 54%;
-  padding-right: 5%;
   float:left;
+  margin-right:20px;
 }
 .contact-details {
-  width: 40%;
-  float:left;
+  overflow:hidden;
+  margin:10px 10px 30px 10px;
   border-left: 1px solid $light-grey;
-
+  min-height:170px;
 }
+.contact-details > ul {
+  padding-left: 15px;
+  margin: 0px 0px 10px 0px;
+}
+// @media screen and (max-width: 1340px) {
+//   .profile {
+//     width: auto;
+//     padding-top: 30px;
+//   }
+//   .personal-blurb {
+//     float: none;
+//     margin-right:0;
+//     width:auto;
+//     border:0;
+//   }
+//   .contact-details {
+//     margin-left: 20px;
+//   }
+//   .contact-details > ul {
+//     padding-left: 0px;
+//   }
+// }
 .experience {
-  width: 1270px;
-  height: 600px;
+  // height: 600px;
   margin: 0 auto;
   color: $light-grey;
   padding: 45px 0px;
@@ -38,17 +72,12 @@
 ul {
   list-style: none;
 }
-li > span {
-  width: 60px;
-}
 
 .title {
-  width: 30%;
   float:left;
   display: block;
 }
 .right-list {
-  width: 60%;
   float:left;
   li {
     margin-bottom: 20px;
@@ -63,5 +92,33 @@ li > span {
   }
   p > span {
     font-style: italic;
+  }
+}
+
+
+
+@media (min-width: 576px) {
+.container-1, .container-2 {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-1, .container-2 {
+      max-width: 720px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .container-1, .container-2 {
+      max-width: 960px;
+    }
+  }
+
+
+@media (min-width: 1200px) {
+  .container-1, .container-2 {
+    max-width: 1140px;
   }
 }

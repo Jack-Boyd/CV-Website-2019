@@ -21,14 +21,25 @@ hr {
   border: 2px solid $purple;
   // border-color: $purple;
 }
-.banner-screen .container {
+.banner-screen .container-x {
   position: relative;
   z-index: 4;
   text-align: center;
   top: 35%;
 }
-
-.container {
-  color: $light-grey;
+h1 {
   font-size: $xl-size;
+}
+.container-x {
+  color: $light-grey;
+  font-size: $l-size;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 5rem;
+  }
+  .container-x{
+    font-size: 3rem;
+  }
 }

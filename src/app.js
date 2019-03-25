@@ -25,11 +25,12 @@ const jsx = (
   </Provider>
 );
 
-ReactDOM.render(<CVPreLoader/>, document.getElementById('app'));
+// ReactDOM.render(<CVPreLoader/>, document.getElementById('app'));
 store.dispatch(startSetSkills());
-store.dispatch(startSetWebsites()).then(() => {
-  ReactDOM.render(jsx, document.getElementById('app'));
-});
+store.dispatch(startSetWebsites())
+
+ReactDOM.render(jsx, document.getElementById('app'));
+
 
 registerServiceWorker();
 

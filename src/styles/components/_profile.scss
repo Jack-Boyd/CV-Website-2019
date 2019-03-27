@@ -1,3 +1,32 @@
+
+@media (min-width: 576px) {
+  .container-1, .container-2 {
+      max-width: 540px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container-1, .container-2 {
+        max-width: 720px;
+    }
+  }
+
+
+  @media (min-width: 992px) {
+    .contact-details {
+      margin:10px 10px 30px 10px;
+    }
+    .container-1, .container-2 {
+        max-width: 960px;
+      }
+    }
+
+
+  @media (min-width: 1200px) {
+    .container-1, .container-2 {
+      max-width: 1140px;
+    }
+  }
 .about-me{
   background-color: $grey;
 }
@@ -15,17 +44,13 @@
 
 .profile {
   color: $light-grey;
-  padding-top: 45px;
+  padding: 45px 0;
   overflow:hidden;
   margin: 0 auto;
 }
 
 .profile div {
    min-height: 75px;
-   padding: 10px 20px 10px;
-}
-.profile h2 {
-  padding-left: 15px;
 }
 .personal-blurb {
   float:left;
@@ -33,7 +58,7 @@
 }
 .contact-details {
   overflow:hidden;
-  margin:10px 10px 30px 10px;
+  margin:65px 10px 30px 10px;
   border-left: 1px solid $light-grey;
   min-height:170px;
 }
@@ -96,29 +121,3 @@ ul {
 }
 
 
-
-@media (min-width: 576px) {
-.container-1, .container-2 {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container-1, .container-2 {
-      max-width: 720px;
-  }
-}
-
-
-@media (min-width: 992px) {
-  .container-1, .container-2 {
-      max-width: 960px;
-    }
-  }
-
-
-@media (min-width: 1200px) {
-  .container-1, .container-2 {
-    max-width: 1140px;
-  }
-}

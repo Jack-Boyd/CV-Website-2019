@@ -23,7 +23,7 @@ p {
 }
 a{
   text-decoration: none;
-  color: $purple;
+  color: lighten($purple, 13%);
 }
 .button {
   border-radius: 15px;
@@ -97,4 +97,7 @@ footer {
   text-align: center;
   color: $light-grey;
   font-size: $m-size;
+}
+.no-margin {
+  margin: 0 !important;
 }

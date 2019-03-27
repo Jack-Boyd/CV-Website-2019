@@ -24,7 +24,9 @@ h2 {
     text-align: center;
   }
 }
-
+.darken-text {
+  color: lighten($purple, 13%);
+}
 // @media (min-width: 576px) {
 //   .slide-content p {
 //       max-width: 540px;

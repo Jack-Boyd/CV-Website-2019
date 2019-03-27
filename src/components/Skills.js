@@ -16,7 +16,16 @@ class Skills extends React.Component {
       speed: 200,
       responsive: [
         {
-          breakpoint: 1400,
+          breakpoint: 1540,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 1300,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 3,
@@ -42,7 +51,7 @@ class Skills extends React.Component {
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 575,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1

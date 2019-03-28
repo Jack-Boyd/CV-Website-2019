@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html, body {font-family: 'Montserrat', Arial, sans-serif !important; height: 100%; margin: 0 }
+body {
+  font-size: 0.875rem;
+}
 button {
   cursor: pointer;
 }

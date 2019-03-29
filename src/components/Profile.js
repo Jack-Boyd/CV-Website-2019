@@ -12,10 +12,10 @@ class Profile extends React.Component {
             <h2 className="p-sub-title">About me</h2>
             <div className="personal-blurb">
                <p>I am a full-stack developer based in Auckland, New Zealand, with a passion for learning, and a drive for producing quality. <br/>
-                  I am an enthusiastic person with a passion for all things music and software, and I am consistently striving to learn new things in order to apply to my professional and personal work.
-                  I am very comfortable in social situations, which i take advantage of in my work talking to customers and making sure they are satisfied.
-                  I love writing and listening to music, learning new skills to add to my toolbelt, and making / reaching my goals.<br/>
-                  I've played piano for almost 15 years, and guitar for 7. I am formerly a club football player, and representative badminton player. I am also a DJ around various nightclubs in Auckland's CBD, and have done this as a hobbie for the past year to earn some extra income.
+                  I am an enthusiastic person with a passion for all things music and software, and I am consistently striving to learn new things in order to apply useful skills to my professional and personal work.
+                  I am very comfortable in social situations, which I take advantage of in my work talking to customers and making sure they are satisfied.
+                  I love writing and listening to music, and have done so from a young age. I've played piano for almost 15 years, and guitar for 7. I am also a DJ around various nightclubs in Auckland's CBD, and have done this as a hobbie for the past year to earn some extra income.<br/>
+
                </p>
             </div>
          </div>
@@ -74,14 +74,14 @@ class Profile extends React.Component {
                   <div>
                      <h4>System 7</h4>
                      <p><span  className="darken-text">Head of Support / Software & Web Developer -- February 2018 - Present</span> </p>
-                     <p>After working a 3 month internship, I have worked at System 7 making sure that support jobs are done on time, and are communicated with the customer, as well as doing developing a variety of web applications. During my employment, I have worked with designers to bring an online presense to various start ups across New Zealand, and have also developed complex web applciations for clients under strict time frames. Daily, I utilise HTML5, CSS3, Javascript/jQuery, ASP.NET Core / Razor, Umbraco, C#, Tortoise SVN, and SQL, with high interest and progress in incorperating Sass, Gulp and other helpful open source libraries/tools installed usign npm.</p>
+                     <p>After a 3 month internship at System7, I have been employed to run the support area of the company, making sure jobs are done on time, and are communicated with the customer, as well as developing a variety of web applications. During my employment, I have worked with designers to bring an online presense to various start ups across New Zealand, and have also developed complex web applciations for clients under strict time frames. Daily, I utilise HTML5, CSS3, Javascript/jQuery, ASP.NET Core / Razor, Umbraco, C#, Tortoise SVN, and SQL, with high interest and progress in incorperating Sass, Gulp and other helpful open source libraries/tools.</p>
                   </div>
                </li>
                <li>
                   <div>
                      <h4>Remix Magazine</h4>
                      <p><span  className="darken-text">Volunteer -- December 2017 - Present </span></p>
-                     <p>Since December 2017, I have done volunteer work setting up layouts at concerts such as OurHouse Presents: Summerfest, and Laneway Festival.
+                     <p>Since December 2017, I have done volunteer at concerts such as OurHouse Presents: Summerfest, and Laneway Festival.
                      </p>
                   </div>
                </li>
@@ -89,7 +89,7 @@ class Profile extends React.Component {
                   <div>
                      <h4>Vessel Entertainment (Impala Nightclub)</h4>
                      <p><span className="darken-text">Bar Staff -- May 2016 - September 2017</span></p>
-                     <p>Bartender & Porter at the new and highly talked about nightclub Impala, based in the heart of Auckland city.</p>
+                     <p>Bartender & Porter at Impala, based in the heart of Auckland city.</p>
                   </div>
                </li>
             </ul>

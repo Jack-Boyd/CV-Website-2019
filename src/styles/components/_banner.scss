@@ -1,18 +1,18 @@
 .banner-screen {
   background: no-repeat center right fixed url('/images/background.jpg');
   background-size: cover;
+  background-position-y: -123px;
   height: 100vh;
-
 }
 
 .banner-screen .overlay {
-  background-color: $dark-grey;
+  background-color: #141719;
   position: absolute;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
-  opacity: 0.6;
+  opacity: 0.7;
   filter: alpha(opacity=50);
   z-index: 2;
   height: 100vh;

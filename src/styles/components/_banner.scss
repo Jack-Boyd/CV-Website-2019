@@ -45,5 +45,7 @@ h1 {
 }
 
 @media screen and (max-width: 1250px) {
-  background-position-y: 0px;
+  .banner-screen {
+    background-position-y: 0px;
+  }
 }

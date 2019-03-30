@@ -1,5 +1,5 @@
 .banner-screen {
-  background: no-repeat center right fixed url('/images/background.jpg');
+  background: no-repeat center center fixed url('/images/background.jpg');
   background-size: cover;
   background-position-y: -123px;
   height: 100vh;
@@ -42,4 +42,8 @@ h1 {
   .container-x{
     font-size: 2.4rem;
   }
+}
+
+@media screen and (max-width: 1250px) {
+  background-position-y: 0px;
 }

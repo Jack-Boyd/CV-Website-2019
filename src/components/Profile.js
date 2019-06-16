@@ -24,7 +24,7 @@ class Profile extends React.Component {
                <ul>
                   <li><span>Date of Birth:</span> 6th February 1997</li>
                   <li><span>Email:</span> <a target="_blank" href="mailto:j.william.boyd@gmail.com">j.william.boyd@gmail.com</a></li>
-                  <li><span>Phone:</span> <a target="_blank" href="tel:+642108280838">021 082 80838</a></li>
+                  <li><span>Phone:</span> <a target="_blank" href="tel:+64224340541">022 434 0541</a></li>
                   <li><span>LinkedIn:</span> <a target="_blank" href="https://www.linkedin.com/in/jack-william-boyd/">https://www.linkedin.com/in/jack-william-boyd/</a></li>
                   <li><span>GitHub:</span> <a target="_blank" href="https://github.com/Jack-Boyd/">https://github.com/Jack-Boyd/</a></li>
                </ul>

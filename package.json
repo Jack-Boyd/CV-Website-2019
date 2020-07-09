@@ -4,6 +4,9 @@
   "main": "app.js",
   "author": "Jack Boyd",
   "license": "MIT",
+  "engines": {
+    "node": "8.11.2"
+  },
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",

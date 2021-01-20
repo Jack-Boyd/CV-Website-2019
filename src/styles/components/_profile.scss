@@ -1,37 +1,38 @@
-
 @media (min-width: 576px) {
-  .container-1, .container-2 {
-      max-width: 540px;
-    }
+  .container-1,
+  .container-2 {
+    max-width: 540px;
   }
+}
 
-  @media (min-width: 768px) {
-    .container-1, .container-2 {
-        max-width: 720px;
-    }
+@media (min-width: 768px) {
+  .container-1,
+  .container-2 {
+    max-width: 720px;
   }
+}
 
-
-  @media (min-width: 992px) {
-    .contact-details {
-      margin:10px 10px 30px 10px;
-    }
-    .container-1, .container-2 {
-        max-width: 960px;
-      }
-    }
-
-
-  @media (min-width: 1200px) {
-    .container-1, .container-2 {
-      max-width: 1140px;
-    }
+@media (min-width: 992px) {
+  .contact-details {
+    margin: 10px 10px 30px 10px;
   }
-.about-me{
-  background-color: $grey;
+  .container-1,
+  .container-2 {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-1,
+  .container-2 {
+    max-width: 1140px;
+  }
+}
+.about-me {
+  background-color: $light-grey;
 }
 .about-experience {
-  background-color: $dark-grey;
+  background-color: $light-grey;
 }
 .container-1 {
   margin: 0 auto;
@@ -43,24 +44,24 @@
 }
 
 .profile {
-  color: $light-grey;
+  color: $dark-grey;
   padding: 45px 0;
-  overflow:hidden;
+  overflow: hidden;
   margin: 0 auto;
 }
 
 .profile div {
-   min-height: 75px;
+  min-height: 75px;
 }
 .personal-blurb {
-  float:left;
-  margin-right:20px;
+  float: left;
+  margin-right: 20px;
 }
 .contact-details {
-  overflow:hidden;
-  margin:65px 10px 30px 10px;
+  overflow: hidden;
+  margin: 0 10px 30px 10px;
   border-left: 1px solid $light-grey;
-  min-height:170px;
+  min-height: 170px;
 }
 .contact-details > ul {
   padding-left: 15px;
@@ -87,8 +88,8 @@
 .experience {
   // height: 600px;
   margin: 0 auto;
-  color: $light-grey;
-  padding: 45px 0px;
+  color: $dark-grey;
+  padding: 45px 0px 15px;
 }
 .p-sub-title {
   font-weight: bold;
@@ -97,13 +98,23 @@
 ul {
   list-style: none;
 }
-
+.slide-image {
+  padding-top: 0;
+  transition: padding-top 0.75s;
+  &:hover {
+    transition: padding-top 0.25s;
+    padding-top: 15px;
+  }
+  &:focus {
+    border: none;
+  }
+}
 .title {
-  float:left;
+  float: left;
   display: block;
 }
 .right-list {
-  float:left;
+  float: left;
   li {
     margin-bottom: 20px;
   }
@@ -119,5 +130,10 @@ ul {
     font-style: italic;
   }
 }
-
-
+.disc {
+  list-style: disc;
+  li {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}

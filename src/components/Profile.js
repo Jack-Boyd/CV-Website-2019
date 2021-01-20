@@ -8,24 +8,15 @@ class Profile extends React.Component {
         <div className="about-me">
           <div className="container-1">
             <div className="row profile">
+              <div className="col-md-12 text-center"><h3 className="p-sub-title">ABOUT ME</h3></div>
               <div className="col-md-7 col-sm-12">
-                <h2 className="p-sub-title">About me</h2>
+
                 <div className="personal-blurb">
                   <p>
-                    I am a full-stack developer based in Auckland, New Zealand,
-                    with a passion for learning, and a drive for producing
-                    quality. <br />
-                    I am an enthusiastic person with a passion for all things
-                    music and software, and I am consistently striving to learn
-                    new things in order to apply useful skills to my
-                    professional and personal work. I am very comfortable in
-                    social situations, which I take advantage of in my work
-                    talking to customers and making sure they are satisfied. I
-                    love writing and listening to music, and have done so from a
-                    young age. I've played piano for almost 15 years, and guitar
-                    for 7. I am also a DJ around various nightclubs in
-                    Auckland's CBD, and have done this as a hobbie for the past
-                    year to earn some extra income.
+                    I am a software engineer based in Auckland, New Zealand, and have been working professionally for 3 years.<br /><br />
+                    Having completed a Bachelor of Mathematical Sciences at AUT in 2017, I pride myself in my ability to problem solve, and my knowledge and understanding of building software.<br/><br/>
+                    I love building and creating. The ability to do so while solving real customer problems makes me proud of my work. I strive for excellence in everything I do, and I am constantly striving to learn new things in order to apply useful skills to my professional and personal work.<br/><br/>
+                    When I'm not coding or fixing bugs caused by my latest bug fixes, I love listening to music, playing piano, watching MMA, binge watching too many TV shows at once, and having a cold beer to cap off the week.
                     <br />
                   </p>
                 </div>
@@ -85,26 +76,18 @@ class Profile extends React.Component {
             <div className="row experience">
               <div className="col-md-4 col-sm-12">
                 <div className="title">
-                  <h3>Education</h3>
+                  <h4>Education</h4>
                 </div>
               </div>
               <div className="col-md-8 col-sm-12">
                 <ul className="right-list">
                   <li>
                     <div>
-                      <h4>Auckland University of Technology (AUT)</h4>
+                      <h5>
+                        Bachelor of Mathematical Sciences, Majoring in Computer Science
+                      </h5>
                       <p className="darken-text">
-                        Bachelor of Mathematical Sciences, Majoring in Computer
-                        Science
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <h4>ACG Strathallan College</h4>
-                      <p className="darken-text">
-                        2 O levels, 6 AS levels, 2 A levels (Year 11, 12, 13
-                        education)
+                        Auckland University of Technology (AUT)
                       </p>
                     </div>
                   </li>
@@ -112,63 +95,25 @@ class Profile extends React.Component {
               </div>
               <div className="col-md-4 col-sm-12">
                 <div className="title">
-                  <h3>Work Experience</h3>
+                  <h4>Work Experience</h4>
                 </div>
               </div>
               <div className="col-md-8 col-sm-12">
                 <ul className="right-list">
                   <li>
                     <div>
-                      <h4>System 7</h4>
+                      <h5>System 7 - Full Stack Developer / Head of Support</h5>
                       <p>
                         <span className="darken-text">
-                          Head of Support / Software & Web Developer -- February
+                          February
                           2018 - Present
                         </span>{" "}
                       </p>
-                      <p>
-                        After a 3 month internship at System7, I have been
-                        employed to run the support area of the company, making
-                        sure jobs are done on time, and are communicated with
-                        the customer, as well as developing a variety of web
-                        applications. During my employment, I have worked with
-                        designers to bring an online presense to various start
-                        ups across New Zealand, and have also developed complex
-                        web applciations for clients under strict time frames.
-                        Daily, I utilise HTML5, CSS3, Javascript/jQuery, ASP.NET
-                        Core / Razor, Umbraco, C#, Tortoise SVN, and SQL, with
-                        high interest and progress in incorperating Sass, Gulp
-                        and other helpful open source libraries/tools.
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <h4>Remix Magazine</h4>
-                      <p>
-                        <span className="darken-text">
-                          Volunteer -- December 2017 - Present{" "}
-                        </span>
-                      </p>
-                      <p>
-                        Since December 2017, I have done volunteer at concerts
-                        such as OurHouse Presents: Summerfest, and Laneway
-                        Festival.
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <h4>Vessel Entertainment (Impala Nightclub)</h4>
-                      <p>
-                        <span className="darken-text">
-                          Bar Staff -- May 2016 - September 2017
-                        </span>
-                      </p>
-                      <p>
-                        Bartender & Porter at Impala, based in the heart of
-                        Auckland city.
-                      </p>
+                      <ul className="disc">
+                        <li>Web Development for multiple different clients and projects, including Fullstack Development, Custom Software Development, UI Building and Complex API based solutions.</li>
+                        <li>Mobile Development & Project Management. Research and implement Mobile Development Process to product native mobile apps for customers, from planning to deployment.</li>
+                        <li>Lead the Customer Service / Support Desk Helpline. Act as a point of communication for customers with issues that need fixing / queries they want more information about, looking after customers and keeping them satisfied.</li>
+                      </ul>
                     </div>
                   </li>
                 </ul>

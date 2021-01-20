@@ -1,34 +1,38 @@
 .skills {
-  background: $dark-grey;
-  color: $light-grey;
+  background: $light-grey;
+  color: $dark-grey;
   padding: 40px 0px;
-  text-align:center;
-}
-.skills2 {
-  background: $grey;
-  color: $light-grey;
-  padding: 40px 0px;
-  text-align:center;
 }
 p {
   margin: 0;
 }
-.slide-content p.fivetext {
-  width: 330px;
-  font-size: 14px;
-  height: 200px;
+.title-space {
+  margin-bottom: 45px;
 }
-h2 {
-  margin-bottom: 20px;
+.skill-item {
+  font-size: 16px;
+  padding-left: 0;
+  transition: padding-left 0.75s;
+  &:hover {
+    transition: padding-left 0.25s;
+    padding-left: 20px;
+    cursor: default;
+  }
+  &::before {
+    content: "▹";
+    position: absolute;
+    color: $purple;
+    left: 0px;
+  }
 }
 .progress {
   display: -ms-flexbox;
   display: flex;
   height: 3rem;
   overflow: hidden;
-  font-size: .75rem;
+  font-size: 0.75rem;
   background-color: #e9ecef;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   margin: 25px 50px 0px;
 }
 .progress-bar {
@@ -42,24 +46,5 @@ h2 {
   text-align: center;
   white-space: nowrap;
   background-color: $purple;
-  transition: width .6s ease;
+  transition: width 0.6s ease;
 }
-@media (max-width: 1700px) {
-  .slide-content p.fivetext {
-    width: 300px;
-    height: 235px;
-  }
-  // .slide-content img {
-  //   height: 65px;
-  // }
-}
-
-  @media (max-width: 1024px) {
-    .slide-content p.fivetext{
-        width: 280px;
-        height: 265px;
-      }
-    // .slide-content img {
-    //   height: 50px;
-    // }
-    }

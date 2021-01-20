@@ -33,7 +33,7 @@ class Contact extends React.Component {
         <div className="contact-form">
 
           <Form onSubmit={this.handleSubmit} >
-            <h2>Contact Me</h2>
+            <h3 className="text-center"><strong>CONTACT ME</strong></h3>
             {this.state.sent && <p className="success">Thankyou for sending a message. I will be in touch shortly.</p>}
             <FormGroup>
               <Label for="name">Name: </Label>

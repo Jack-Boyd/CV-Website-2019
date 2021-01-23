@@ -7,15 +7,15 @@ class Skills extends React.Component {
   render() {
     return (
       <section className="skills">
-        <div className="container-1">
-          <div className="row">
+        <div className="container">
+          <div className="row mobile-center">
             <div className="col-md-12 title-space">
               <h3 className="text-center"><strong>SKILLS</strong></h3>
             </div>
             {
               this.props.skills.sort((a, b) => (a.rating > b.rating) ? -1 : 1).map((skill, index) => {
                 return (
-                  <div className="col-md-3 col-sm-3" key={index}>
+                  <div className="col-md-3 col-sm-6 col-xs-12" key={index}>
                     <p className="skill-item">{skill.name}</p>
                   </div>
                 );

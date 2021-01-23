@@ -52,7 +52,7 @@ class Portfolio extends React.Component {
     }
     return (
       <div className="portfolio">
-        <div className="container-1">
+        <div className="container">
           <div className="row">
             <div className="col-md-12">
               <h3 className="heading p-sub-title">PORTFOLIO</h3>

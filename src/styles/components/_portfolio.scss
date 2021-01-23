@@ -46,15 +46,12 @@ h3.heading {
     width: 360px;
   }
   .slide-content img {
-    height: 65px;
+    height: 75px;
   }
 }
 
 @media (max-width: 1024px) {
   .slide-content p {
     width: 300px;
-  }
-  .slide-content img {
-    height: 50px;
   }
 }

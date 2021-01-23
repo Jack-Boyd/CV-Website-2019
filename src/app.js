@@ -35,11 +35,14 @@ const jsx = (
 //   type: 'self'
 // };
 
-
 store.dispatch(startSetSkills());
 store.dispatch(startSetWebsites())
 
 ReactDOM.render(jsx, document.getElementById('app'));
 
-
 registerServiceWorker();
+
+//git add .
+//git commit -m ""
+//git push
+//git push heroku master

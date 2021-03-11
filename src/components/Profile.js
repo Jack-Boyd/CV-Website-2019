@@ -2,7 +2,7 @@ import React from "react";
 
 class Profile extends React.Component {
   render() {
-    const resumeDownload = "/files/Jack Boyd CV 2019.pdf";
+    const resumeDownload = "/files/Jack Boyd CV 2021.pdf";
     return (
       <section id="about">
         <div className="about-me">

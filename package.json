@@ -5,7 +5,7 @@
   "author": "Jack Boyd",
   "license": "MIT",
   "engines": {
-    "node": "14.15.0"
+    "node": "14.15.3"
   },
   "scripts": {
     "build:dev": "webpack",
